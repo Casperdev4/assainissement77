@@ -1,12 +1,10 @@
 <?php
 
 $nom = htmlspecialchars($_POST['nom']);
-$email = htmlspecialchars($_POST['e-mail']);
 $telephone = htmlspecialchars($_POST['telephone']);
 $services = htmlspecialchars($_POST['services']);
 
 $message = "Nom: $nom \n";
-$message .= "E-mail: $email \n";
 $message .= "Telephone: $telephone \n";
 $message .= "Prestations: $services \n";
 
