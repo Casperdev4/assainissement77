@@ -4,7 +4,7 @@
 <url>
 <loc>https://assainissement77.fr</loc>
     <image:image>
-        <image:loc>https://assainissement77.fr/aquaserv.jpg</image:loc>
+        <image:loc>https://assainissement77.fr/goutte.jpg</image:loc>
         <image:caption>Découvrez-nos-services-assainissement-a-Paris.</image:caption>
         <image:title>aquaserv-assainissement</image:title>
     </image:image>
@@ -144,7 +144,7 @@
 </url>
 
 <url>
-<loc>https://assainissement77.fr/aquaserv-assainissement.html</loc>
+<loc>https://assainissement77.fr/assainissement77.html</loc>
     <image:image>
         <image:loc>https://assainissement77.fr/camion-assainissement.webp</image:loc>
         <image:caption>Découvrez-nos-services-assainissement-pour-des-solutions-rapides-et-efficaces.</image:caption>
@@ -195,103 +195,6 @@
         <image:caption>Explorez-nos-services-d-assainissement-avec-notre-equipe-de-specialistes-assurant-des-solutions-adaptees-et-fiables-pour-vos-besoins.</image:caption>
         <image:title>terrassement-assainissement</image:title>
     </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/dumez.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-assainissement-ont-contribué-à-la-satisfaction-de-Dumez-l'un-de-nos-clients-partenaires.</image:caption>
-        <image:title>debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/"otacos.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-assainissement-ont-contribué-à-la-satisfaction-de-notre-client-Otacos.</image:caption>
-        <image:title>nettoyage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/sodexo.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Sodexo,-l'un-de-nos-partenaires-privilégiés.</image:caption>
-        <image:title>camera-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/sergic.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Sergic,-l'un-de-nos-partenaires-de-confiance.</image:caption>
-        <image:title>vidange-fosse-septique</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/etf.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-d'ETF,-l'un-de-nos-partenaires-privilégiés.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/vinci.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Vinci,-l'un-de-nos-partenaires-majeurs.</image:caption>
-        <image:title>pompe-de-relevage</image:title>
-        </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/spie-batignolles.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-SPIE-Batignolles,-l'un-de-nos-partenaires-de-longue-date.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/nexity.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Nexity,-l'un-de-nos-partenaires-immobiliers.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <geo:geo>
-    <geo:format>decimal</geo:format>
-    <geo:latitude>48.6183</geo:latitude>
-    <geo:longitude>2.6247</geo:longitude>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne</geo:placename>
-    <geo:position>48.6183;2.6247</geo:position>
-</url>
-
-<url>
-<loc>https://assainissement75.fr/assainissement-devis-gratuit.html</loc>
-    <image:image>
-        <image:loc>https://assainissement77.fr/dumez.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-assainissement-ont-contribué-à-la-satisfaction-de-Dumez-l'un-de-nos-clients-partenaires.</image:caption>
-        <image:title>debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/"otacos.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-assainissement-ont-contribué-à-la-satisfaction-de-notre-client-Otacos.</image:caption>
-        <image:title>nettoyage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/sodexo.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Sodexo,-l'un-de-nos-partenaires-privilégiés.</image:caption>
-        <image:title>camera-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/sergic.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Sergic,-l'un-de-nos-partenaires-de-confiance.</image:caption>
-        <image:title>vidange-fosse-septique</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/etf.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-d'ETF,-l'un-de-nos-partenaires-privilégiés.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/vinci.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Vinci,-l'un-de-nos-partenaires-majeurs.</image:caption>
-        <image:title>pompe-de-relevage</image:title>
-        </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/spie-batignolles.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-SPIE-Batignolles,-l'un-de-nos-partenaires-de-longue-date.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/nexity.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Nexity,-l'un-de-nos-partenaires-immobiliers.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <geo:geo>
-    <geo:format>decimal</geo:format>
-    <geo:latitude>48.6183</geo:latitude>
-    <geo:longitude>2.6247</geo:longitude>
-    </geo:geo>
     <geo:region>Ile-de-France</geo:region>
     <geo:placename>Seine-et-Marne</geo:placename>
     <geo:position>48.6183;2.6247</geo:position>
