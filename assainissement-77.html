@@ -54,22 +54,22 @@
         <input type="checkbox" id="btn">
         <ul class="nav-menu">
             <li class="nav-item">
-                <a href="index.html">ACCUEIL</a>
+                <a href="index.html" title="assainissement">ACCUEIL</a>
             </li>
             <li class="nav-item">
-                <a href="index.html#prestation">NOS SERVICES</a>
+                <a href="index.html#prestation" title="services-assainissement">NOS SERVICES</a>
             </li>
             <li class="nav-item">
-                <a href="assainissement-77.html">L'ENTREPRISE</a>
+                <a href="assainissement-77.html" title="assainissement77">L'ENTREPRISE</a>
             </li>
             <li class="nav-item">
-                <a href="tel:0781132581">07 81 13 25 81</a>
+                <a href="tel:0781132581" title="prix-assainissement">07 81 13 25 81</a>
             </li>
         </ul>
     </nav>
     <div class="image-index">
         <h1>ASSAINISSEMENT Seine et Marne</h1>
-        <a class="bouton-devis1" href="assainissement-devis-gratuit.html"><ion-icon
+        <a class="bouton-devis1" href="assainissement-devis-gratuit.html" title="debouchage-canalisation"><ion-icon
                 name="document-text-outline"></ion-icon> Devis
             Gratuit</a>
     </div>
@@ -108,7 +108,7 @@
     <div class="realisation">
         <img src="camion-curage.webp" alt="camion-curage" loading="lazy" decoding="async">
     </div>
-    <a class="bouton-devis3" href="tel:0781132581">CONTACTEZ - NOUS</a>
+    <a class="bouton-devis3" href="tel:0781132581" title="assainissement-seine-et-marne">CONTACTEZ - NOUS</a>
     <h2 id="realisation">RÉALISATIONS</h2>
     <div class="realisation-pc">
         <img src="restaurant.webp" alt="bacs-a-graisse" loading="lazy" decoding="async">
@@ -146,11 +146,12 @@
     <div class="realisation">
         <img src="pompe-de-relevage2.webp" alt="pompe-de-relevage" loading="lazy" decoding="async">
     </div>
-    <a class="bouton-devis3" href="devis-gratuit-assainissement.html">Devis Gratuit</a>
+    <a class="bouton-devis3" href="devis-gratuit-assainissement.html" title="vidange-fosse-septique">Devis Gratuit</a>
     <div class="contenu">
         <h2>FAITES CONFIANCE À NOS PROFESSIONNELLES DIPLÔMÉS ET LEUR SAVOIR-FAIRE</h2>
         <p>
-            Notre équipe qualifiée en assainissement dans la seine-et-marne vous garantit des résultats exceptionnels. Chacun de
+            Notre équipe qualifiée en assainissement dans la seine-et-marne vous garantit des résultats exceptionnels.
+            Chacun de
             nos professionnels diplômés est déterminé à surpasser vos attentes. Nous proposons le curage des
             canalisations, la vidange de fosses septiques, l'assainissement individuel, le traitement des eaux usées et
             le débouchage des canalisations.
@@ -241,19 +242,20 @@
         </p>
         <h5>NOS RÉSEAUX SOCIAUX</h5>
         <div class="reseau-contact">
-            <a href="https://fr.linkedin.com/in/el-mehdi-dahmane-6b28b2177" target="_blank" title="linkedin-assainissement"><ion-icon
-                    name="logo-linkedin"></ion-icon> Linkedin -</a>
-            <a href="https://www.instagram.com/aquaserv_assainissement_91/" target="_blank" title="instagram-assainissement"><ion-icon
-                    name="logo-instagram"></ion-icon> Instagram -</a>
-            <a href="https://www.snapchat.com/add/aquaservassaini" target="_blank" title="snapchat-assainissement"><ion-icon
-                    name="logo-snapchat"></ion-icon> Snapchat -</a>
-            <a href="https://www.facebook.com/aquaserv.assainissement" target="_blank" title="facebook-assainissement"><ion-icon
-                    name="logo-facebook"></ion-icon> Facebook</a>
+            <a href="https://fr.linkedin.com/in/el-mehdi-dahmane-6b28b2177" target="_blank"
+                title="linkedin-assainissement"><ion-icon name="logo-linkedin"></ion-icon> Linkedin -</a>
+            <a href="https://www.instagram.com/aquaserv_assainissement_91/" target="_blank"
+                title="instagram-assainissement"><ion-icon name="logo-instagram"></ion-icon> Instagram -</a>
+            <a href="https://www.snapchat.com/add/aquaservassaini" target="_blank"
+                title="snapchat-assainissement"><ion-icon name="logo-snapchat"></ion-icon> Snapchat -</a>
+            <a href="https://www.facebook.com/aquaserv.assainissement" target="_blank"
+                title="facebook-assainissement"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
         </div>
         <h5>CONTACTEZ - NOUS</h5>
-        <p class="liens">Tel : <a href="tel:0169520023" target="_blank" title="numero-assainissement"> 01 69 52 00 23</a></p>
-        <p class="liens">E-mail : <a href="mailto:contact.aquaserv@gmail.com"
-                target="_blank" title="services-assainissement">contact.aquaserv@gmail.com</a></p>
+        <p class="liens">Tel : <a href="tel:0169520023" target="_blank" title="numero-assainissement"> 01 69 52 00
+                23</a></p>
+        <p class="liens">E-mail : <a href="mailto:contact.aquaserv@gmail.com" target="_blank"
+                title="services-assainissement">contact.aquaserv@gmail.com</a></p>
         <div class="liens-wp">
             <h6>Site réalisé par <a href="https://webprime.fr/" target="_blank">webprime</a> - <a
                     href="mentions-legales.html" target="_blank">mentions légales</a>.
@@ -338,6 +340,22 @@
             elements.forEach(element => {
                 observer.observe(element);
             });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var telephoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            if (telephoneLinks.length > 0) {
+                var nombreClics = localStorage.getItem('nombreClics') || 0;
+                console.log('Nombre de clics actuel : ' + nombreClics);
+                telephoneLinks.forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        nombreClics++;
+                        localStorage.setItem('nombreClics', nombreClics);
+                        console.log('Clic sur un lien de t ! Nouveau nombre de clics : ' + nombreClics);
+                    });
+                });
+            }
         });
     </script>
 </body>
