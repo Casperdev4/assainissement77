@@ -3,10 +3,12 @@
 $nom = htmlspecialchars($_POST['nom']);
 $telephone = htmlspecialchars($_POST['telephone']);
 $services = htmlspecialchars($_POST['services']);
+$commentaires = htmlspecialchars($_POST['commentaires']);
 
 $message = "Nom: $nom \n";
 $message .= "Telephone: $telephone \n";
 $message .= "Prestations: $services \n";
+$message .= "Commentaires: $commentaires \n";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -27,7 +29,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;  
     $mail->Port       = 465;                      
 
-    $mail->setFrom('contact@webprime.fr', 'Assainissement 75');
+    $mail->setFrom('contact@webprime.fr', 'Assainissement 77');
     $mail->addAddress('contact.aquaserv@gmail.com');
     $mail->addAddress('contact@webprime.fr');
 
