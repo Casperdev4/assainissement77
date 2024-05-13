@@ -86,7 +86,7 @@
         </ul>
     </nav>
     <div class="image-index">
-        <h1>Spécialiste en Assainissement dans le 77</h1>
+        <h1><i>Spécialiste en Assainissement dans le 77</i></h1>
         <a class="bouton-devis1" href="prix-assainissement-77.html" title="debouchage-canalisation"><ion-icon
                 name="document-text-outline"></ion-icon> Devis
             Gratuit</a>
@@ -360,22 +360,6 @@
             elements.forEach(element => {
                 observer.observe(element);
             });
-        });
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var telephoneLinks = document.querySelectorAll('a[href^="tel:"]');
-            if (telephoneLinks.length > 0) {
-                var nombreClics = localStorage.getItem('nombreClics') || 0;
-                console.log('Nombre de clics actuel : ' + nombreClics);
-                telephoneLinks.forEach(function (link) {
-                    link.addEventListener('click', function () {
-                        nombreClics++;
-                        localStorage.setItem('nombreClics', nombreClics);
-                        console.log('Clic sur un lien de t ! Nouveau nombre de clics : ' + nombreClics);
-                    });
-                });
-            }
         });
     </script>
 </body>
