@@ -20,7 +20,7 @@
     </image:image>
     <image:image>
         <image:loc>https://assainissement77.fr/camera.webp</image:loc>
-    <image:caption>Explorez-nos-services-inspection-caméra.</image:caption>
+        <image:caption>Explorez-nos-services-inspection-caméra.</image:caption>
         <image:title>camera-canalisation</image:title>
     </image:image>
     <image:image>
@@ -37,51 +37,6 @@
         <image:loc>https://assainissement77.fr/urgence-assainissement.webp</image:loc>
         <image:caption>Découvrez-notre-expertise-en-installation-et-maintenance-de-pompes-de-relevage.</image:caption>
         <image:title>urgence-assainissement</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/restaurant.webp</image:loc>
-        <image:caption>Assurez-vous-de-la-propreté-avec-nos-services-assainissement-pour-les-restaurants-et-établissements-alimentaires.</image:caption>
-        <image:title>vidange-bac-a-graisse</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/pompage-assainissement.webp</image:loc>
-        <image:caption>Explorez-nos-services-de-pompage.</image:caption>
-        <image:title>pompage-assainissement</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camera-assainissement.webp</image:loc>
-        <image:caption>Découvrez-nos-services-de-caméra-assainissement.</image:caption>
-        <image:title>camera-pour-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/debouchage-assainissement.webp</image:loc>
-        <image:caption>Découvrez-nos-services-de-débouchage.</image:caption>
-        <image:title>debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/degorgement.webp</image:loc>
-        <image:caption>Profitez-de-nos-services-de-dégorgement-professionnels-pour-maintenir-vos-canalisations-fluides-et-sans-obstruction.</image:caption>
-        <image:title>debouchage-canalisation-paris</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/curage-assainissement.webp</image:loc>
-        <image:caption>Explorez-nos-services-de-curage-pour-un-assainissement-efficace-et-sans-obstruction.</image:caption>
-        <image:title>hydrocurage</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camera2.webp</image:loc>
-        <image:caption>Explorez-nos-services-inspection-caméra.</image:caption>
-        <image:title>camera-pour-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/pompe-de-relevage2.webp</image:loc>
-        <image:caption>Découvrez-nos-services-installation-et-maintenance-de-pompes-de-relevage.</image:caption>
-        <image:title>pompe-vide-cave</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/bac-a-graisse.webp</image:loc>
-        <image:caption>Découvrez-nos-services-de-maintenance-de-bacs-à-graisse.</image:caption>
-        <image:title>bacs-a-graisse</image:title>
     </image:image>
     <image:image>
         <image:loc>https://assainissement77.fr/note.webp</image:loc>
@@ -133,11 +88,6 @@
         <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Nexity,-l'un-de-nos-partenaires-immobiliers.</image:caption>
         <image:title>entreprise-debouchage-canalisation</image:title>
     </image:image>
-    <geo:geo>
-    <geo:format>decimal</geo:format>
-    <geo:latitude>48.6183</geo:latitude>
-    <geo:longitude>2.6247</geo:longitude>
-    </geo:geo>
     <geo:region>Ile-de-France</geo:region>
     <geo:placename>Seine-et-Marne</geo:placename>
     <geo:position>48.6183;2.6247</geo:position>
@@ -193,6 +143,72 @@
         <image:loc>https://assainissement77.fr/specialistes-assainissement.webp</image:loc>
         <image:caption>Explorez-nos-services-d-assainissement-avec-notre-equipe-de-specialistes-assurant-des-solutions-adaptees-et-fiables-pour-vos-besoins.</image:caption>
         <image:title>terrassement-assainissement</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Seine-et-Marne</geo:placename>
+    <geo:position>48.6183;2.6247</geo:position>
+</url>
+<url>
+<loc>https://assainissement77.fr/debouchage-canalisation.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/debouchage.webp</image:loc>
+        <image:caption>Découvrez-nos-solutions-professionnelles-de-débouchage.</image:caption>
+        <image:title>debouchage-canalisation</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Seine-et-Marne</geo:placename>
+    <geo:position>48.6183;2.6247</geo:position>
+</url>
+<url>
+<loc>https://assainissement77.fr/curage-canalisation.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/curage.webp</image:loc>
+        <image:caption>Découvrez-notre-expertise-en-curage-pour-maintenir-un-environnement-propre-et-sain.</image:caption>
+        <image:title>nettoyage-canalisation</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Seine-et-Marne</geo:placename>
+    <geo:position>48.6183;2.6247</geo:position>
+</url>
+<url>
+<loc>https://assainissement77.fr/camera-canalisation.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/camera.webp</image:loc>
+        <image:caption>Explorez-nos-services-inspection-caméra.</image:caption>
+        <image:title>camera-canalisation</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Seine-et-Marne</geo:placename>
+    <geo:position>48.6183;2.6247</geo:position>
+</url>
+<url>
+<loc>https://assainissement77.fr/vidange-fosse-septique.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/pompage.webp</image:loc>
+        <image:caption>Découvrez-nos-services-de-pompage-des-eaux-usées-et-des-liquides.</image:caption>
+        <image:title>vidange-fosse-septique</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Seine-et-Marne</geo:placename>
+    <geo:position>48.6183;2.6247</geo:position>
+</url>
+<url>
+<loc>https://assainissement77.fr/pompe-de-relevage.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/pompe-de-relevage.webp</image:loc>
+        <image:caption>Découvrez-notre-expertise-en-installation-et-maintenance-de-pompes-de-relevage.</image:caption>
+        <image:title>pompe-de-relevage</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Seine-et-Marne</geo:placename>
+    <geo:position>48.6183;2.6247</geo:position>
+</url>
+<url>
+<loc>https://assainissement77.fr/urgence-assainissement.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/urgence-assainissement.webp</image:loc>
+        <image:caption>Découvrez-notre-expertise-en-installation-et-maintenance-de-pompes-de-relevage.</image:caption>
+        <image:title>urgence-assainissement</image:title>
     </image:image>
     <geo:region>Ile-de-France</geo:region>
     <geo:placename>Seine-et-Marne</geo:placename>
