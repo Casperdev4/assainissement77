@@ -31,7 +31,7 @@ p {
 .icon,.logo,.navbar{display:flex}.nav-menu,.navbar{background-color:#fff;left:0;right:0}*{box-sizing:border-box;outline:0;margin:0;padding:0}.navbar{padding:10px;justify-content:space-between;align-items:center;position:fixed;top:0;z-index:1000;height:11%}.logo{align-items:center;max-height:70px;min-height:70px;margin-left:0}.icon{fill:#009de0;cursor:pointer;align-items:center;margin-right:3%}.dropdown,.nav-menu,.navbar input{display:none}[id^=btn]:checked+ul{display:block}.nav-menu{position:absolute;top:99%}.drop-item a,.nav-item a,.show{color:#000;text-decoration:none;font-size:1.2rem;line-height:3;display:block;text-align:center}.drop-item a{margin-left:8%;font-size:1rem}.nav-menu a:hover,.show:hover{color:#009de0}
 .image-index{background-image:url('goutte.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;height:650px;position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}.image-index h1{color:#01002c;width:80%;margin-top:auto}
 .icon-anime{display:flex;justify-content:space-between;align-items:center;margin-top:5%}.icon-anime-pc h3{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s}
-.icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin-top:5%;margin-bottom:15%}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:60%;height:auto}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin:5px 0 0;padding:8px;font-size:22px}
+.icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin-top:5%;margin-bottom:15%}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:40%;height:auto}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin:5px 0 0;padding:8px;font-size:22px}
 .icon-anime-pc h3.slide-up,
 .bouton-devis3.slide-up {
   opacity: 1;
@@ -42,7 +42,7 @@ p {
 .contenu2 img {
   display: flex;
   justify-content: center;
-  width: 40%;
+  width: 30%;
   height: auto;
   margin-top: 7%;
   margin-bottom: 5%;
@@ -68,7 +68,7 @@ p {
   background-color: #ffa929;
   color: #000000;
   font-size: 22px;
-  padding: 2%;
+  padding: 1%;
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 2%;
@@ -84,10 +84,10 @@ p {
   justify-content: center;
   background-color: #ffa929;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
   padding: 1%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
   margin-top: 2%;
   margin-bottom: 2%;
   text-decoration: none;
@@ -100,7 +100,7 @@ p {
 .form-container button:hover {
   background-color: #ffa929;
 }
-.form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;background:linear-gradient(to bottom,#297fb8,#dfe4ea);padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff;border-radius: 20px;}.image-container{display:flex;justify-content:center;align-items:center;background-color:#fff;padding:1%;margin-left:37%;margin-right:37%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;font-size:20px}.form-container input,.form-container select{width:100%;height:35px;padding:8px 550px 8px 8px;margin-bottom:16px;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000}.form-container button{display:flex;justify-content:center;background-color:#01002c;color:#fff;padding:10px 150px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
+.form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:50%;background:linear-gradient(to bottom,#297fb8,#dfe4ea);padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff;border-radius: 20px;}.image-container{display:flex;justify-content:center;align-items:center;background-color:#fff;padding:1%;margin-left:37%;margin-right:37%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;font-size:20px}.form-container input,.form-container select{width:100%;height:35px;padding:8px 230px 8px 8px;margin-bottom:16px;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000}.form-container button{display:flex;justify-content:center;background-color:#01002c;color:#fff;padding:10px 80px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
 .form-container textarea {
   width: 100%;
   padding: 8px;
@@ -208,7 +208,7 @@ p {
     font-weight: 300;
     margin-top: 5%;
   }
-  .form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}.image-container{background-color:#fff;padding:1%;margin-left:25%;margin-right:25%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;font-size:20px}.form-container input,.form-container select{width:100%;height:35px;padding:8px 100px 8px 8px;margin-bottom:16px;box-sizing:border-box}.form-container button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}.form-container button:hover{background-color:#ffa929}
+  .form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}.image-container{background-color:#fff;padding:1%;margin-left:25%;margin-right:25%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;margin-left: 2%;font-size:20px}.form-container input,.form-container select{width:100%;height:35px;padding:8px 90px 8px 8px;margin-bottom:16px;box-sizing:border-box}.form-container button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}.form-container button:hover{background-color:#ffa929}
   .reseau-contact{text-align:center;margin-bottom:13%}.reseau-contact a{font-size:13px;color:#fff}.reseau-contact ion-icon{font-size:16px}
   .icon-anime-pc,.partenaires-pc,.realisation-pc{display:none}
 }
