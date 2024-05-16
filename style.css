@@ -83,7 +83,8 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.contenu2 h3 {font-size: 22px;margin-left: 5%;text-align: left;margin-top: 5%;margin-bottom: 5%;font-weight: 600;}
+.contenu2 p {margin-left: 3%;margin-right: 3%;text-align: left;}
+.contenu2 h3 {font-size: 20px;margin-left: 6%;margin-right: 5%;text-align: left;margin-top: 10%;margin-bottom: 3%;font-weight: 600;}
 #contact{margin-top:10%;padding:2%;background-color:#01002c}#contact h5{text-align:center;margin:5% 3% 3%;color:#fff;font-weight:600;font-size:20px}#contact p{color:#fff}
 .liens a {
   margin: 0;
