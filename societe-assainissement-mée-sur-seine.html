@@ -87,10 +87,11 @@
         </ul>
     </nav>
     <div class="image-index">
-        <h1><i>Nos Services assainissement au Mée-sur-Seine</i></h1>
-        <a class="bouton-devis1" href="prix-assainissement-77.html" title="debouchage-canalisation"><ion-icon
-                name="document-text-outline"></ion-icon> Devis
-            Gratuit</a>
+        <img src="goutte.jpg" alt="Aquaserv-Assainissement-77" class="background-image" loading="lazy" decoding="async">
+        <h1><i>Assainissement 77 : N°1 en Assainissement dans la Seine et Marne</i></h1>
+        <a class="bouton-devis1" href="prix-assainissement-77.html" title="prix-assainissement">
+            <ion-icon name="document-text-outline"></ion-icon> Devis Gratuit
+        </a>
     </div>
     <h2 id="prestation">Nos Services au Mée-sur-Seine</h2>
     <div class="container-index">
@@ -324,8 +325,6 @@
         document.addEventListener("DOMContentLoaded", function () {
             var menuToggle = document.getElementById("btn");
             var navLinks = document.querySelectorAll(".nav-menu a");
-
-            // Ferme le menu lorsqu'un lien est cliqué
             navLinks.forEach(function (link) {
                 link.addEventListener("click", function () {
                     menuToggle.checked = false;
