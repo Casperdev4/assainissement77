@@ -6,9 +6,9 @@ $services = htmlspecialchars($_POST['services']);
 $commentaires = htmlspecialchars($_POST['commentaires']);
 
 $message = "Nom: $nom \n";
-$message .= "Telephone: $telephone \n";
-$message .= "Prestations: $services \n";
-$message .= "Commentaires: $commentaires \n";
+$message .= "/ Telephone: $telephone \n";
+$message .= "/ Prestations: $services \n";
+$message .= "/ Commentaires: $commentaires \n";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
