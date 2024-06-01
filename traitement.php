@@ -1,18 +1,16 @@
 <?php
-// Configure les en-têtes pour utiliser UTF-8
+
 header('Content-Type: text/html; charset=UTF-8');
 
-// Récupérer les données du formulaire en utilisant htmlspecialchars avec UTF-8
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
-// Créer le message en utilisant UTF-8
 $message = "Nom: $nom \n";
-$message .= "Téléphone: $telephone \n";
-$message .= "Prestations: $services \n";
-$message .= "Commentaires: $commentaires \n";
+$message .= "/ Téléphone: $telephone \n";
+$message .= "/ Prestations: $services \n";
+$message .= "/ Commentaires: $commentaires \n";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -36,13 +34,10 @@ try {
     $mail->setFrom('contact@webprime.fr', 'Assainissement 77');
     $mail->addAddress('contact.aquaserv@gmail.com');
     $mail->addAddress('contact@webprime.fr');
-
-    // Configurer les en-têtes de l'email pour UTF-8
     $mail->CharSet = 'UTF-8';
-
     $mail->isHTML(true);     
-    $mail->Subject = 'Formulaire de contact';
-    $mail->Body    = nl2br($message); // Convertir les sauts de ligne en balises <br> pour l'HTML
+    $mail->Subject = 'Formulaire 77';
+    $mail->Body    = nl2br($message);
     $mail->AltBody = $message;
 
     $mail->send();
@@ -53,5 +48,3 @@ try {
     echo "Message non envoyé. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
-
-
