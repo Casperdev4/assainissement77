@@ -13,7 +13,7 @@ $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
 if (contains_links($commentaires)) {
-    echo "Les liens ne sont pas autorisés dans les commentaires.";
+    echo "Les liens ne sont pas autorisés.";
     exit();
 }
 
