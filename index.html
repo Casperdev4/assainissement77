@@ -113,7 +113,7 @@
             <img src="logo.webp" alt="Logo-Assainissement">
         </div>
         <h2>(pas de spam)</h2>
-        <form action="traitement.php" method="post">
+        <form action="traitement.php" method="post" onsubmit="return validateForm()">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="nom" required>
             <label for="tel">Téléphone :</label>
@@ -646,6 +646,18 @@
             });
         });
     </script>
+    <script>
+        function validateForm() {
+            var comments = document.getElementById("comments").value;
+            var linkPattern = /https?:\/\/[^\s]+/g;
+        
+            if (linkPattern.test(comments)) {
+                alert("Les liens ne sont pas autorisés dans les commentaires.");
+                return false;
+            }
+            return true;
+        }
+        </script>
 </body>
 
 </html>
