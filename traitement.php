@@ -12,9 +12,8 @@ $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
-// Vérification des liens dans les commentaires
 if (contains_links($commentaires)) {
-    echo "Les liens ne sont pas autorisés dans les commentaires.";
+    echo "Les liens ne sont pas autorisés.";
     exit();
 }
 
