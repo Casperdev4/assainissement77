@@ -3,7 +3,7 @@
 header('Content-Type: text/html; charset=UTF-8');
 
 function contains_links($text) {
-    $linkPattern = "/https?:\/\/[^\s]+/";
+    $linkPattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
     return preg_match($linkPattern, $text);
 }
 
@@ -12,8 +12,9 @@ $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
+// Vérification des liens dans les commentaires
 if (contains_links($commentaires)) {
-    echo "Les liens ne sont pas autorisés.";
+    echo "Les liens ne sont pas autorisés dans les commentaires.";
     exit();
 }
 
