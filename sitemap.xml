@@ -88,12 +88,17 @@
         <image:caption>Découvrez comment nos services d'assainissement ont contribué à la satisfaction de Nexity, l'un de nos partenaires immobiliers.</image:caption>
         <image:title>Entreprise plomberie</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/assainissement-seine-et-marne-77.html</loc>
@@ -147,12 +152,17 @@
         <image:caption>Explorez nos services d'assainissement avec notre équipe de spécialistes assurant des solutions adaptées et fiables pour vos besoins.</image:caption>
         <image:title>terrassement assainissement</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/debouchage-canalisation-seine-et-marne-77.html</loc>
@@ -161,12 +171,17 @@
         <image:caption>Découvrez nos solutions professionnelles de débouchage de canalisation.</image:caption>
         <image:title>Debouchage canalisation Seine-et-Marne 77</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/curage-canalisation-seine-et-marne-77.html</loc>
@@ -175,12 +190,17 @@
         <image:caption>Découvrez notre expertise en curage et nettoyage de canalisations.</image:caption>
         <image:title>Nettoyage canalisation Seine-et-Marne 77</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/camera-canalisation-seine-et-marne-77.html</loc>
@@ -189,12 +209,17 @@
         <image:caption>Explorez nos services inspection caméra canalisations.</image:caption>
         <image:title>Camera canalisation Seine-et-Marne 77</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/vidange-fosse-septique-seine-et-marne-77.html</loc>
@@ -203,12 +228,17 @@
         <image:caption>Découvrez nos services de pompage et vidange de liquides, des eaux usées et de bacs à graisse.</image:caption>
         <image:title>Vidange fosse septique Seine-et-Marne 77</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/pompe-de-relevage-seine-et-marne-77.html</loc>
@@ -217,12 +247,17 @@
         <image:caption>Découvrez notre expertise en installation et maintenance de pompes de relevage.</image:caption>
         <image:title>Pompe de relevage Seine-et-Marne 77</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/urgence-assainissement-seine-et-marne-77.html</loc>
@@ -231,22 +266,31 @@
         <image:caption>Découvrez nos service d'urgence assainissement et d'urgence plombier.</image:caption>
         <image:title>Urgence assainissement Seine-et-Marne 77</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Seine-et-Marne (77)</geo:placename>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/prix-assainissement-seine-et-marne-77.html</loc>
-<geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Seine-et-Marne (77)</geo:placename>
-</geo:geo>
-<geo:region>Ile-de-France</geo:region>
-<geo:placename>Seine-et-Marne (77)</geo:placename>
-
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Seine-et-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4482</geo:west>
+                <geo:east>3.4044</geo:east>
+                <geo:north>49.2130</geo:north>
+                <geo:south>48.2053</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement77.fr/societe-assainissement-bussy-saint-georges.html</loc>
