@@ -592,26 +592,21 @@
         });
     </script>
     <script>
-        function validerFormulaire() {
-            var nom = document.getElementById("nom").value.trim();
-            var telephone = document.getElementById("telephone").value.trim();
+        function validateForm() {
+            var name = document.getElementById("name").value.trim();
+            var tel = document.getElementById("tel").value.trim();
             var services = document.getElementById("services").value.trim();
-            var commentaires = document.getElementById("commentaires").value.trim();
-
-            if (nom === "" || telephone === "" || services === "" || commentaires === "") {
+            var comments = document.getElementById("comments").value.trim();
+            if (name === "" || tel === "" || services === "" || comments === "") {
                 alert("Tous les champs sont obligatoires.");
                 return false;
             }
-
-            var patternLien = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-            var patternScript = /<script[^>]*>[\s\S]*?<\/script>/gi;
-            var patternCyrillique = /[\u0400-\u04FF\u0500-\u052F\u2DE0-\u2DFF\uA640-\uA69F]/;
-
-            if (patternLien.test(commentaires) || patternScript.test(commentaires) || patternCyrillique.test(commentaires)) {
+            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+            var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
+            if (linkPattern.test(comments) || scriptPattern.test(comments)) {
                 alert("Pas autorisés.");
                 return false;
             }
-
             return true;
         }
     </script>
