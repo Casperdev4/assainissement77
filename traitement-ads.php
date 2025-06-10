@@ -68,7 +68,7 @@ try {
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
-    $mail->Subject = 'Formulaire 77';
+    $mail->Subject = 'Formulaire Ads';
     $mail->Body    = nl2br($message);
     $mail->AltBody = $message;
 
