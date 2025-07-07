@@ -63,9 +63,9 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'Assainissement 77');
+    $mail->setFrom('contact@webprime.fr', 'Ads 77');
     $mail->addAddress('contact.aquaserv@gmail.com');
-    $mail->addAddress('webprime91@hotmail.com');
+    $mail->addAddress('lennuygui91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->Subject = 'Formulaire Ads';
