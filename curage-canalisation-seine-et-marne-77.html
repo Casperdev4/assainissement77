@@ -228,39 +228,36 @@
         <div class="image-container">
             <img src="logo.webp" alt="entreprise débouchage canalisation 77 Seine-et-Marne">
         </div>
-        <form action="https://formsubmit.co/webprime91@hotmail.com" method="POST" onsubmit="return validateForm()">
-            
-            <!-- Sécurité anti-spam FormSubmit -->
-            <input type="hidden" name="_captcha" value="false">
-            
-            <!-- Redirection vers une page "Merci" -->
-            <input type="hidden" name="_next" value="https://assainissement77.fr/">
-
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="nom" required>
-
-            <label for="tel">Téléphone :</label>
-            <input type="tel" id="tel" name="telephone" required>
-
-            <label for="services">Prestations :</label>
-            <select id="services" name="services" required>
-                <option value="BAC A GRAISSE">BAC À GRAISSE</option>
-                <option value="CONTRAT D'ENTRETIEN">CONTRAT D'ENTRETIEN</option>
-                <option value="CURAGE">CURAGE</option>
-                <option value="DEGORGEMENT">DÉGORGEMENT</option>
-                <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
-                <option value="INSPECTION CAMERA">INSPECTION CAMÉRA</option>
-                <option value="POMPAGE">POMPAGE</option>
-                <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
-                <option value="REPARATION DE RESEAUX">RÉPARATION DE RÉSEAUX</option>
-                <option value="URGENCE">URGENCE</option>
-            </select>
-
-            <label for="comments">Commentaires :</label>
-            <textarea id="comments" name="commentaires" rows="4"></textarea>
-
-            <button type="submit">ENVOYER</button>
-        </form>
+                <form action="https://formsubmit.co/webprime91@hotmail.com" method="POST" onsubmit="return validateForm()">
+                    <!-- Honeypot anti-spam -->
+                    <div class="hp-wrap">
+                        <label for="website">Votre site web :</label>
+                        <input type="text" id="website" name="website" autocomplete="off">
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://assainissement77.fr/">
+                    <input type="hidden" name="_cc" value="contact.aquaserv@gmail.com">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="nom" required>
+                    <label for="tel">Téléphone :</label>
+                    <input type="tel" id="tel" name="telephone" required>
+                    <label for="services">Prestations :</label>
+                    <select id="services" name="services" required>
+                        <option value="BAC A GRAISSE">BAC À GRAISSE</option>
+                        <option value="CONTRAT D'ENTRETIEN">CONTRAT D'ENTRETIEN</option>
+                        <option value="CURAGE">CURAGE</option>
+                        <option value="DEGORGEMENT">DÉGORGEMENT</option>
+                        <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
+                        <option value="INSPECTION CAMERA">INSPECTION CAMÉRA</option>
+                        <option value="POMPAGE">POMPAGE</option>
+                        <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
+                        <option value="REPARATION DE RESEAUX">RÉPARATION DE RÉSEAUX</option>
+                        <option value="URGENCE">URGENCE</option>
+                    </select>
+                    <label for="comments">Commentaires :</label>
+                    <textarea id="comments" name="commentaires" rows="4"></textarea>
+                    <button type="submit">ENVOYER</button>
+                </form>
     </div>
     </main>
     <footer>
