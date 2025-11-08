@@ -24,6 +24,17 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #297
 .contact-icon,.icon-anime,.partenaires,.realisation{display:none}
 .navbar{box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);}
 
+.hp-wrap {
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
 /*  Small device */
 @media screen and (max-width:767.98px) {
 
