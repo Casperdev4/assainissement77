@@ -392,29 +392,22 @@
         </section>
         <h2>CONTACTEZ - NOUS</h2>
             <div class="form-container">
-                <!-- Honeypot anti-spam -->
-                <div class="hp-wrap">
-                    <label for="website">Votre site web :</label>
-                    <input type="text" id="website" name="website" autocomplete="off">
-                </div>
         <div class="image-container">
             <img src="logo.webp" alt="entreprise débouchage canalisation 77 Seine-et-Marne">
         </div>
-                <form action="https://formsubmit.co/formulaire@webprime.fr" method="POST" onsubmit="return validateForm()">
+                <form id="contactForm" onsubmit="return submitToWebPrime(event)">
                     <!-- Honeypot anti-spam -->
                     <div class="hp-wrap">
                         <label for="website">Votre site web :</label>
-                        <input type="text" id="website" name="website" autocomplete="off">
+                        <input type="text" id="website" name="_gotcha" autocomplete="off">
                     </div>
                     <input type="hidden" name="_captcha" value="true">
-                    <input type="hidden" name="_next" value="https://assainissement77.fr/">
-                    <input type="hidden" name="_cc" value="contact.aquaserv@gmail.com">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_blacklist" value="http, https, www., .com, .net, .org, <a, </a, <script, </script, <iframe, </iframe, <img, javascript:, onerror=, onclick=, onload=">
                     <label for="name">Nom :</label>
                     <input type="text" id="name" name="nom" required>
                     <label for="tel">Téléphone :</label>
                     <input type="tel" id="tel" name="tel" pattern="^((\+33|0)[1679])[0-9]{8}$" maxlength="12" required>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
                     
                     <label for="services">Prestations :</label>
                     <select id="services" name="services" required>
@@ -548,29 +541,41 @@
             });
         });
     </script>
-    <script>
-        function validateForm() {
-            var name = document.getElementById("name").value.trim();
-            var tel = document.getElementById("tel").value.trim();
-            var services = document.getElementById("services").value.trim();
-            var comments = document.getElementById("comments").value.trim();
-            if (name === "" || tel === "" || services === "" || comments === "") {
-                alert("Champs obligatoires.");
-                return false;
+        <script>
+    async function submitToWebPrime(e) {
+        e.preventDefault();
+        var form = e.target;
+        var btn = form.querySelector('button[type="submit"]');
+        var originalText = btn.textContent;
+
+        // Anti-spam honeypot check
+        var honeypot = form.querySelector('input[name="_gotcha"]');
+        if (honeypot && honeypot.value) return false;
+
+        btn.textContent = 'Envoi en cours...';
+        btn.disabled = true;
+
+        try {
+            var formData = new FormData(form);
+            var response = await fetch('https://webprime.app/webhook/contact/857f6a6d191ea9ed8f4d7159245a653f3043557bd87b70e04ebc34dea33a261a', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                window.location.href = 'https://assainissement77.fr/';
+            } else {
+                alert('Erreur lors de l envoi. Veuillez reessayer.');
+                btn.textContent = originalText;
+                btn.disabled = false;
             }
-            var telPattern = /^((0[1679])|(\+33[1679]))\d{8}$/;
-            if (!telPattern.test(tel)) {
-                alert("Veuillez entrer un numéro de téléphone valide.");
-                return false;
-            }
-            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-            var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
-            if (linkPattern.test(comments) || scriptPattern.test(comments)) {
-                alert("Pas autorisé.");
-                return false;
-            }
-            return true;
+        } catch (error) {
+            alert('Erreur de connexion. Veuillez reessayer.');
+            btn.textContent = originalText;
+            btn.disabled = false;
         }
+        return false;
+    }
     </script>
 </body>
 
