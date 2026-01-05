@@ -267,6 +267,39 @@
                     <button type="submit">ENVOYER</button>
                 </form>
     </div>
+        <section class="faq-section">
+            <h2>FAQ POMPE DE RELEVAGE</h2>
+            <div class="faq-item">
+                <div class="faq-question">A quoi sert une pompe de relevage ?</div>
+                <div class="faq-answer">
+                    <p>Une pompe de relevage permet de remonter les eaux usees vers le reseau d'assainissement lorsque celui-ci se trouve plus haut que votre installation. Elle est indispensable pour les sous-sols, caves ou habitations en contrebas.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Comment savoir si ma pompe de relevage est en panne ?</div>
+                <div class="faq-answer">
+                    <p>Les signes d'une pompe defaillante sont : bruits anormaux, odeurs nauseabondes, eau qui ne s'evacue plus, alarme qui se declenche. En cas de doute, faites controler votre installation rapidement pour eviter les debordements.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">A quelle frequence entretenir sa pompe de relevage ?</div>
+                <div class="faq-answer">
+                    <p>Un entretien annuel est recommande pour verifier le bon fonctionnement de la pompe, nettoyer le bac et controler les flotteurs. Cet entretien preventif prolonge la duree de vie de votre installation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Installez-vous des pompes de relevage neuves ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous installons des pompes de relevage neuves adaptees a vos besoins : eaux usees domestiques, eaux-vannes, eaux chargees. Nous vous conseillons sur le modele le plus adapte a votre configuration.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Intervenez-vous en urgence pour les pannes de pompe ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous intervenons en urgence 24h/24 pour les pannes de pompe de relevage. Un dysfonctionnement peut entrainer rapidement des debordements, c'est pourquoi nous assurons un service d'astreinte permanent.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="contact">
@@ -420,6 +453,14 @@
         }
         return false;
     }
+    </script>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function(question) {
+        question.addEventListener('click', function() {
+            var item = this.parentElement;
+            item.classList.toggle('active');
+        });
+    });
     </script>
 </body>
 

@@ -264,6 +264,39 @@
                     <button type="submit">ENVOYER</button>
                 </form>
     </div>
+        <section class="faq-section">
+            <h2>FAQ URGENCE ASSAINISSEMENT</h2>
+            <div class="faq-item">
+                <div class="faq-question">Intervenez-vous vraiment 24h/24 et 7j/7 ?</div>
+                <div class="faq-answer">
+                    <p>Oui, notre service d'urgence est disponible 24 heures sur 24, 7 jours sur 7, y compris les weekends et jours feries. Une equipe d'astreinte est toujours prete a intervenir pour resoudre vos urgences d'assainissement.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quel est le delai d'intervention en cas d'urgence ?</div>
+                <div class="faq-answer">
+                    <p>En cas d'urgence, nous nous engageons a intervenir dans les meilleurs delais, generalement dans l'heure suivant votre appel en Seine-et-Marne. Notre flotte de vehicules nous permet d'etre reactifs sur tout le departement.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quelles situations sont considerees comme urgentes ?</div>
+                <div class="faq-answer">
+                    <p>Les situations urgentes comprennent : debordement de fosse septique, refoulement d'eaux usees, canalisation completement bouchee, panne de pompe de relevage avec risque de debordement, inondation liee a l'assainissement.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Les interventions en urgence sont-elles plus cheres ?</div>
+                <div class="faq-answer">
+                    <p>Les interventions en urgence de nuit, weekend ou jours feries peuvent faire l'objet d'une majoration. Nous vous communiquons toujours le tarif avant d'intervenir pour une totale transparence sur les couts.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Que faire en attendant votre intervention ?</div>
+                <div class="faq-answer">
+                    <p>En attendant notre arrivee : coupez l'eau si possible, n'utilisez plus les sanitaires concernes, aerez les pieces si mauvaises odeurs, eloignez les enfants et animaux de la zone. Nos techniciens vous conseilleront par telephone.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="contact">
@@ -417,6 +450,14 @@
         }
         return false;
     }
+    </script>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function(question) {
+        question.addEventListener('click', function() {
+            var item = this.parentElement;
+            item.classList.toggle('active');
+        });
+    });
     </script>
 </body>
 

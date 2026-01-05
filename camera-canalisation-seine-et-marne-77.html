@@ -271,6 +271,39 @@
                     <button type="submit">ENVOYER</button>
                 </form>
     </div>
+        <section class="faq-section">
+            <h2>FAQ INSPECTION CAMERA</h2>
+            <div class="faq-item">
+                <div class="faq-question">A quoi sert une inspection camera des canalisations ?</div>
+                <div class="faq-answer">
+                    <p>L'inspection camera permet de visualiser l'interieur de vos canalisations pour detecter les problemes : bouchons, fissures, racines, deformations. C'est un diagnostic precis qui evite les travaux inutiles et couteux.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">L'inspection camera est-elle obligatoire ?</div>
+                <div class="faq-answer">
+                    <p>L'inspection camera n'est pas obligatoire mais fortement recommandee lors de l'achat d'un bien immobilier ou avant des travaux de renovation. Elle peut etre exigee par certaines assurances pour evaluer l'etat des canalisations.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Comment se passe une inspection camera ?</div>
+                <div class="faq-answer">
+                    <p>Un technicien introduit une camera miniature etanche dans vos canalisations. Les images sont transmises en direct sur un ecran, permettant d'identifier precisement l'emplacement et la nature des problemes.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Recevrai-je un rapport apres l'inspection ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous vous fournissons un rapport detaille avec les images et videos de l'inspection, l'identification des problemes detectes et nos recommandations pour les travaux eventuels a realiser.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quelle longueur de canalisation peut-on inspecter ?</div>
+                <div class="faq-answer">
+                    <p>Nos cameras professionnelles peuvent inspecter des canalisations sur plusieurs dizaines de metres. La longueur depend du diametre des tuyaux et de leur configuration. Nous disposons de differents modeles adaptes a chaque situation.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="contact">
@@ -423,6 +456,14 @@
         }
         return false;
     }
+    </script>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function(question) {
+        question.addEventListener('click', function() {
+            var item = this.parentElement;
+            item.classList.toggle('active');
+        });
+    });
     </script>
 </body>
 

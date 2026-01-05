@@ -280,6 +280,39 @@
                     <button type="submit">ENVOYER</button>
                 </form>
     </div>
+        <section class="faq-section">
+            <h2>FAQ VIDANGE FOSSE SEPTIQUE</h2>
+            <div class="faq-item">
+                <div class="faq-question">A quelle frequence faut-il vidanger sa fosse septique ?</div>
+                <div class="faq-answer">
+                    <p>Il est recommande de vidanger votre fosse septique tous les 3 a 4 ans pour un usage domestique classique. Cette frequence peut varier selon la taille de la fosse et le nombre d'occupants du logement.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Comment savoir si ma fosse septique doit etre vidangee ?</div>
+                <div class="faq-answer">
+                    <p>Les signes d'une fosse a vidanger sont : mauvaises odeurs persistantes, ecoulement lent des eaux usees, refoulement dans les canalisations, herbe anormalement verte autour de la fosse. N'attendez pas ces signes, faites une vidange preventive.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Que devient le contenu de ma fosse apres vidange ?</div>
+                <div class="faq-answer">
+                    <p>Les boues sont transportees vers une station d'epuration agreee ou elles sont traitees conformement a la reglementation environnementale. Nous vous remettons un bordereau de suivi attestant du traitement reglementaire.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">La vidange est-elle obligatoire ?</div>
+                <div class="faq-answer">
+                    <p>Oui, l'entretien regulier des fosses septiques est obligatoire. Le SPANC (Service Public d'Assainissement Non Collectif) peut controler votre installation et vous demander de justifier des vidanges effectuees.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Vidangez-vous aussi les bacs a graisse ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous realisons la vidange des bacs a graisse pour les restaurants et professionnels de la restauration. Un entretien regulier est essentiel pour eviter les engorgements et respecter les normes sanitaires.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="contact">
@@ -433,6 +466,14 @@
         }
         return false;
     }
+    </script>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function(question) {
+        question.addEventListener('click', function() {
+            var item = this.parentElement;
+            item.classList.toggle('active');
+        });
+    });
     </script>
 </body>
 

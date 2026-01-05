@@ -310,6 +310,39 @@
                     decoding="async">
             </div>
         </section>
+        <section class="faq-section">
+            <h2>QUESTIONS SUR NOS TARIFS</h2>
+            <div class="faq-item">
+                <div class="faq-question">Le devis est-il vraiment gratuit et sans engagement ?</div>
+                <div class="faq-answer">
+                    <p>Oui, tous nos devis sont entierement gratuits et sans engagement. Nous vous fournissons une estimation detaillee et transparente avant toute intervention, sans frais caches ni surprise.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quels sont vos tarifs pour un debouchage de canalisation ?</div>
+                <div class="faq-answer">
+                    <p>Nos tarifs de debouchage varient selon la complexite de l'intervention et le type de canalisation. Contactez-nous au 01 69 52 00 23 pour obtenir un devis personnalise adapte a votre situation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quel est le prix d'une vidange de fosse septique ?</div>
+                <div class="faq-answer">
+                    <p>Le prix d'une vidange de fosse septique depend du volume de la fosse et de son accessibilite. Nos tarifs sont competitifs et nous proposons des forfaits avantageux pour les contrats d'entretien annuels.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Y a-t-il des frais supplementaires pour les interventions en urgence ?</div>
+                <div class="faq-answer">
+                    <p>Les interventions en urgence peuvent faire l'objet d'une majoration selon les horaires (nuit, weekend, jours feries). Nous vous informons toujours du tarif exact avant d'intervenir pour une totale transparence.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quels modes de paiement acceptez-vous ?</div>
+                <div class="faq-answer">
+                    <p>Nous acceptons les paiements par cheque, virement bancaire et especes. Des facilites de paiement peuvent etre proposees pour les interventions importantes. N'hesitez pas a nous contacter pour en discuter.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="contact">
@@ -465,6 +498,14 @@
         }
         return false;
     }
+    </script>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function(question) {
+        question.addEventListener('click', function() {
+            var item = this.parentElement;
+            item.classList.toggle('active');
+        });
+    });
     </script>
 </body>
 

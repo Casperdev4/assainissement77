@@ -397,6 +397,39 @@
                     decoding="async">
             </div>
         </section>
+        <section class="faq-section">
+            <h2>QUESTIONS SUR NOTRE ENTREPRISE</h2>
+            <div class="faq-item">
+                <div class="faq-question">Depuis combien de temps exercez-vous dans l'assainissement ?</div>
+                <div class="faq-answer">
+                    <p>Aquaserv Assainissement 77 possede plusieurs annees d'experience dans le domaine de l'assainissement. Notre equipe de professionnels qualifies et diplomes intervient quotidiennement pour resoudre tous types de problemes d'assainissement en Seine-et-Marne.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Vos techniciens sont-ils qualifies ?</div>
+                <div class="faq-answer">
+                    <p>Oui, tous nos techniciens sont diplomes et formes aux dernieres techniques d'assainissement. Ils beneficient de formations continues pour maitriser les equipements modernes et garantir des interventions de qualite.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quels equipements utilisez-vous pour vos interventions ?</div>
+                <div class="faq-answer">
+                    <p>Nous disposons d'une flotte de vehicules specialises et d'equipements modernes : camions de pompage, materiels d'hydrocurage haute pression, cameras d'inspection, pompes de relevage professionnelles pour repondre a tous types d'interventions.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Travaillez-vous avec des professionnels et des particuliers ?</div>
+                <div class="faq-answer">
+                    <p>Oui, nous intervenons aussi bien pour les particuliers que pour les professionnels : restaurants, entreprises, syndics de copropriete, collectivites. Nous comptons parmi nos partenaires des grands groupes comme Vinci, Nexity et Sodexo.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Etes-vous assures pour vos interventions ?</div>
+                <div class="faq-answer">
+                    <p>Absolument, notre entreprise est assuree pour toutes ses interventions. Nous disposons d'une assurance responsabilite civile professionnelle qui couvre l'ensemble de nos prestations d'assainissement.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="contact">
@@ -551,6 +584,14 @@
         }
         return false;
     }
+    </script>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function(question) {
+        question.addEventListener('click', function() {
+            var item = this.parentElement;
+            item.classList.toggle('active');
+        });
+    });
     </script>
 </body>
 
